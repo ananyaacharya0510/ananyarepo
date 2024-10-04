@@ -1,1 +1,100 @@
-this is my second file 
+<--this is my second file-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .input-group input[type="text"],
+        .input-group input[type="time"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        .btn-secondary {
+            background-color: #008CBA;
+        }
+        .btn-secondary:hover {
+            background-color: #007bb5;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Shop Management</h2>
+
+    <div class="input-group">
+        <label for="shopName">Shop Name</label>
+        <input type="text" id="shopName" name="shopName">
+    </div>
+
+    <div class="input-group">
+        <label for="profName">Prof. Name</label>
+        <input type="text" id="profName" name="profName">
+    </div>
+
+    <div class="input-group">
+        <label for="location">Location of Shop</label>
+        <input type="text" id="location" name="location">
+    </div>
+
+    <div class="input-group">
+        <label for="bestQuality">Mention Your Best Quality</label>
+        <input type="text" id="bestQuality" name="bestQuality">
+    </div>
+
+    <div class="input-group">
+        <label for="workingHours">Shops Working Hours</label>
+        <input type="time" id="workingHours" name="workingHours">
+    </div>
+
+    <div class="input-group">
+        <label for="openCloseTime">Give Opening Time/Closing Time</label>
+        <input type="text" id="openCloseTime" name="openCloseTime">
+    </div>
+
+    <button class="btn">Add</button>
+    <button class="btn btn-secondary">Retailer Login</button>
+</div>
+
+</body>
+</html>
